@@ -1,0 +1,14 @@
+Negro: #0B1215
+Gris: #3D3D3D
+Cían: #27ABA2
+
+tipografia inicio: Montserrat en medium | tamaño 50
+
+tipografia titulos: Segoe UI regular | tamaño 120
+tipografia texto normal: Segoe UI regular | tamaño 40
+
+tipografia botones: Microsoft Sans Serif | tamaño 26
+
+
+
+
