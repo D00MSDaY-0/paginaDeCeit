@@ -1,5 +1,16 @@
+:root{
+    --fondo:  #0B1215;
+    --letras: #ffff;
+    --botones: #27ABA2;
+    --fondo_secundario: #3D3D3D;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background: var(--fondo);
+    color: var(--letras)
 }
