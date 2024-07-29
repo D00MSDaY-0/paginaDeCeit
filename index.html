@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CEIT</title>
     <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     
+<div class="contenedor_principal">
     <!--La barra de navegación aun no está terminada, falta el logo y linkear las distintas listas una vez esté todo terminado-->
     <div class="menu">
         <div class="logo">
             <img src="" alt="">
         </div>
-        <div class="barra_navegación">
+        <div class="barra_navegacion">
             <nav class="enlaces_de_nav" id="enlaces">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
@@ -25,8 +31,8 @@
           
             </nav>
                 <div class="barra_botones">
-                    <a href="login.html"><button>Iniciar sesión</button></a>
-                    <a href="registro.html" target="_blank"><button>Registro</button></a>
+                    <a href="login.html"><button class="inicio_sesion">Iniciar sesión</button></a>
+                    <a href="registro.html" target="_blank"><button class="boton">Registro</button></a>
                 </div>
         </div>
     </div>
@@ -37,8 +43,9 @@
             <img src="/assets/Mesa de trabajo 124.png">
         </div>
         <div class="desc_inicio">
-            <h4>Donde la Tecnología y la Creatividad se Encuentran</h5>
-            <h1 id="titulo_ceit">CLUB DE EXPERIMENTACIÓN E IDEACIÓN TÉCNOLOGICA</h1>
+            <h4 id="leyenda">Donde la Tecnología y la Creatividad se Encuentran</h5>
+            <h1 id="titulo_ceit">CLUB DE EXPERIMENTACIÓN E</h1>
+            <h1 id="titulo_ceit">IDEACIÓN TECNOLÓGICA</h1>
         </div>
     </div>
 
@@ -47,16 +54,18 @@
             <h3>Aquí, cada miembro es un creador, y cada proyecto una oportunidad</h3>
         </div>
         <div class="nosotros">
-            <h2 id="#nosotros">¿Quienes somos?</h2>
+            <h2 id="nosotros" class="titulo_nosotros">¿Quienes somos?</h2>
 
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Deleniti amet sint itaque asperiores id reiciendis inventore? 
             Neque cumque officiis, consequatur eos tempore blanditiis deleniti cum commodi
             doloribus nam. Quas, fugit.</p>
 
-            <a href="sobreceit.html"><button>Leer más</button></a>
+            <a href="sobreceit.html"><button class="boton">Leer más</button></a>
         </div>
     </div>
-    
+
+
+</div>
 </body>
 </html>

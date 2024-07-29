@@ -3,14 +3,181 @@
     --letras: #ffff;
     --botones: #27ABA2;
     --fondo_secundario: #3D3D3D;
+    --sombra_btn: #22978fb9;
+    
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background: var(--fondo);
-    color: var(--letras)
+    color: var(--letras);
+    width: 100%;
+
+}
+
+.contenedor_principal{
+    width: 100%;
+    margin: auto;
+}
+.boton, .inicio_sesion{
+    padding: 3px 20px;
+    border-radius: 20px;
+    background: var(--botones);
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.inicio_sesion{
+    background: none;
+    border: 2px solid var(--letras);
+    color: var(--letras);
+    
+
+}
+
+
+
+/*ESTILO PROVISORIO NAVBAR*/
+
+.menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 30px;
+    background: var(--fondo);
+}
+.logo img{
+    width: 100px;
+    cursor: pointer;
+    padding-top: 30px;
+    border-radius: 100%;
+}
+.barra_navegacion{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.barra_navegacion .enlaces_de_nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+    font-family: Montserrat;
+
+}
+.barra_navegacion .enlaces_de_nav ul li a{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--letras);
+
+}
+.barra_botones button{
+    margin-left: 25px;
+    
+}
+.barra_botones button:hover{
+    transform: translateX(-10px);
+  
+}
+
+
+
+
+
+
+/* ESTILOS PARA EL INICIO */
+.inicio{
+    display: flex;
+}
+.logo_grande{
+    width: 50%;
+
+}
+.logo_grande img{
+    width: 110%
+
+}
+#titulo_ceit{
+    font-size: 50dp;
+    padding-right: 30px;
+    text-transform: uppercase;
+    text-indent: -140px;
+    font-weight: 500;
+
+}
+#leyenda{
+    padding-right: 30px;
+}
+.desc_inicio{
+    width: 50%;
+    font-family: Montserrat;
+    height: fit-content;
+    margin: auto;
+    padding-right: 20px;
+    text-align: right;
+}
+
+
+/*ESTILOS PARA INFORMACION*/
+/*
+La parte de información es necesario arreglarla, en page-separation, para que el texto quede como en el mockup
+o en su debido caso, cambiar el fondo gris a una imagen de fondo como propuso la nicole
+es necesario revisar tambien de forma general que las fuentes esten puestas correctamente
+y tambien revisar que los tamaños coincidan, y de no ser así, cambiarlos. Si los tamaños
+quedan muy pequeños, entonces ajustarlos sin problema según lo que se requiera.
+ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
+*/
+
+.informacion{
+    display: inline-block;
+}
+
+.page-separation{
+    height: 200px;
+    background: var(--fondo_secundario);
+
+}
+.page-separation h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40dp;
+    font-weight: 300;
+    text-align: center;
+    word-spacing: 3px;
+    padding-top: 6%;
+}
+
+.titulo_nosotros{
+    font-weight: 500;
+    letter-spacing: 6px;
+    font-size: 50px;
+    padding: 40px 20px;
+    
+}
+.nosotros{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    padding: 60px;
+    
+}
+.nosotros p{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.nosotros button{
+    margin-top: 60px;
+    margin-left: 20px;
+
 }
