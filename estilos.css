@@ -221,6 +221,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     margin-top: 50px;
     border-radius: 20px;
     border: 2px solid #27ABA2;
+    box-shadow: 0 0 20px rgba(2, 187, 125, 0.5);
 }
 .iniciar-sesion a{
     color: #27ABA2;
@@ -245,6 +246,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     margin-top: 50px;
     border-radius: 20px;
     border: 2px solid #27ABA2;
+    box-shadow: 0 0 20px rgba(2, 187, 125, 0.5);
 }
 
 .form-reg h3 {
@@ -262,6 +264,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     margin: 16px 0;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 20px rgba(2, 187, 125, 0.5);
 }
 
 .cuadros {
@@ -274,7 +277,27 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
 }
+
 .login-from-reg{
     margin-top: 16px;
     text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.login-from-reg a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.info-checkbox{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
