@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
     <title>Registro</title>
 </head>
 <body>
-    <section>
-        <input type="text" name="name" id="name" placeholder="Ingrese su nombre">
-        <input type="text" name="surname" id="surname" placeholder="Ingrese su apellido">
-        <input type="text" name="career" id="career" placeholder="Ingrese su carrera">
-        <input type="text" name="generation" id="generation" placeholder="Ingrese su generación">
-        <input type="email" name="email" id="email" placeholder="Ingrese su correo">
-        <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+    <section class="form-reg">
+        <h3 class="body-registro">Registro CEIT</h3>
+        <input class="cuadros" type="text" name="name" id="name" placeholder="Nombre">
+        <input class="cuadros" type="text" name="surname" id="surname" placeholder="Apellido">
+        <input class="cuadros" type="text" name="career" id="career" placeholder="Carrera">
+        <input class="cuadros" type="text" name="generation" id="generation" placeholder="Generación">
+        <input class="cuadros" type="email" name="email" id="email" placeholder="Ingrese su correo">
+        <input class="cuadros" type="password" name="password" id="password" placeholder="Ingrese su contraseña">
         <p>
             <!--Etiqueta <form>: Define un formulario que enviará datos a /ruta-de-tu-servidor utilizando el método POST.
                 Debes reemplazar /ruta-de-tu-servidor con la URL a la que quieras enviar los datos.-->
@@ -20,11 +22,12 @@
             <label for="aceptar-informacion">
                 <input type="checkbox" id="aceptar-informacion" name="aceptar-informacion" value="true">
                 Deseo que CEIT me envíe información al correo
+                <p>
             </label>
             <p>
-            <button type="submit">Registrar</button>
-            <p><a href="#">¿Ya estás registrado? Inicia sesión</a></p>
+            <button class="confirm" type="submit">Registrar</button>
         </form>
+        <p  class="login-from-reg"><a href="#">¿Ya estás registrado? Inicia sesión</a></p>
     </section>
 </body>
 </html>

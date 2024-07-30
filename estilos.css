@@ -182,5 +182,64 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 }
 
+<<<<<<< HEAD
 /*ESTILOS PARA INCIO DE SESION*/
 
+=======
+/* FORMULARIO DE REGISTRO */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-registro {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 100px;
+    
+}
+
+.form-reg {
+    width: 550px;
+    background: #0B1215;
+    padding: 100px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid #27ABA2;
+}
+
+.form-reg h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.form-reg .confirm{
+    width: 100%;
+    background: #02bb7d;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cuadros {
+    width: 100%;
+    background: #0B1215;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    border: 1px solid #27ABA2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.login-from-reg{
+    margin-top: 16px;
+    text-align: center;
+}
+>>>>>>> 454a94bbcffe0357a25c1967f68a3b9eb2b41ff4
