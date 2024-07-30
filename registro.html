@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <section>
+        <input type="text" name="name" id="name" placeholder="Ingrese su Nombre">
+        <input type="text" name="surname" id="surname" placeholder="Ingrese su Apellido">
+        <input type="email" name="email" id="email" placeholder="Ingrese su Correo">
+        <input type="password" name="password" id="password" placeholder="Ingrese su Contraseña">
+        <p>
+            <!--Etiqueta <form>: Define un formulario que enviará datos a /ruta-de-tu-servidor utilizando el método POST.
+                Debes reemplazar /ruta-de-tu-servidor con la URL a la que quieras enviar los datos.-->
+        <form action="/ruta del servidor" method="post">
+            <label for="aceptar-informacion">
+                <input type="checkbox" id="aceptar-informacion" name="aceptar-informacion" value="true">
+                Deseo que CEIT me envíe información al correo
+            </label>
+            <p>
+            <button type="submit">Registrar</button>
+            <p><a href="#">¿Ya estás registrado? Inicia sesión</a></p>
+        </form>
+    </section>
+</body>
+</html>
