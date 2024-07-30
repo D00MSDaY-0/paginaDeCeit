@@ -247,6 +247,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 .login-from-reg a{
     color:white;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .box{
@@ -256,6 +257,6 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 .info-checkbox{
     text-align: center;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
