@@ -182,17 +182,53 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 }
 
-<<<<<<< HEAD
 /*ESTILOS PARA INCIO DE SESION*/
+.iniciar-sesion h1{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.iniciar-sesion h4{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.iniciar-sesion input{
+    width: 100%;
+    background-color: #0B1215;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    border: 1px solid #27ABA2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.iniciar-sesion button{
+    width: 100%;
+    background:#27ABA2;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.iniciar-sesion form{
+    width: 550px;
+    background: #0B1215;
+    padding: 100px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 2px solid #27ABA2;
+}
+.iniciar-sesion a{
+    color: #27ABA2;
+}
 
-=======
 /* FORMULARIO DE REGISTRO */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .body-registro {
     color: white;
@@ -219,7 +255,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 .form-reg .confirm{
     width: 100%;
-    background: #02bb7d;
+    background: #27ABA2;
     border: none;
     padding: 12px;
     color: white;
@@ -242,4 +278,3 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     margin-top: 16px;
     text-align: center;
 }
->>>>>>> 454a94bbcffe0357a25c1967f68a3b9eb2b41ff4
