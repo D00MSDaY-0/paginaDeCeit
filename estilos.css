@@ -58,9 +58,9 @@ body{
     background: var(--fondo);
 }
 .logo img{
-    width: 100px;
+    width: 150px;
     cursor: pointer;
-    padding-top: 30px;
+    padding-top: 0px;
     border-radius: 100%;
 }
 .barra_navegacion{
@@ -88,7 +88,7 @@ body{
 }
 .barra_botones button:hover{
     transform: translateX(-10px);
-  
+
 }
 
 
@@ -187,18 +187,20 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     color: #ffffff;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 16px;
 }
 .iniciar-sesion h4{
     color: #ffffff;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 16px;
 }
 .iniciar-sesion input{
     width: 100%;
     background-color: #0B1215;
     padding: 10px;
     border-radius: 4px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     border: 1px solid #27ABA2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
@@ -226,6 +228,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 .iniciar-sesion a{
     color: #27ABA2;
 }
+
 
 /* FORMULARIO DE REGISTRO */
 
@@ -301,3 +304,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*ESTILOS NEWSLETTERS CEIT*/
+
+
