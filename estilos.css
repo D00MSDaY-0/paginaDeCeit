@@ -62,12 +62,14 @@ body{
     height: 80px;
     padding: 0px 30px;
     background: var(--fondo);
+    z-index: 1;
 }
 .logo img{
     width: 150px;
     cursor: pointer;
     padding-top: 0px;
     border-radius: 100%;
+    z-index: 1;
 }
 .barra_navegacion{
     display: flex;
@@ -78,8 +80,8 @@ body{
     display: inline-block;
     padding: 0 10px;
     font-family: Montserrat;
-
 }
+
 .barra_navegacion .enlaces_de_nav ul li a{
     text-transform: uppercase;
     font-size: 20px;
@@ -88,6 +90,7 @@ body{
     color: var(--letras);
 
 }
+
 .barra_botones button{
     margin-left: 25px;
     
@@ -125,6 +128,8 @@ body{
 }
 #leyenda{
     padding-right: 30px;
+    margin: auto;
+    text-align: right;
 }
 .desc_inicio{
     width: 50%;
@@ -166,7 +171,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 .titulo_nosotros{
     font-weight: 500;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     font-size: 50px;
     padding: 40px 20px;
     
@@ -174,7 +179,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 .nosotros{
     background-color: var(--fondo);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: auto;
+    height: 400px;
     padding: 60px;
     
 }
@@ -191,18 +196,16 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 }
 
 /*ESTILOS PARA INCIO DE SESION*/
-.iniciar-sesion h1{
-    color: #ffffff;
+
+
+
+.iniciar-sesion h1, h4{
+    color: var(--letras);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 16px;
+    margin-bottom: 50px;
 }
-.iniciar-sesion h4{
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 16px;
-}
+
 .iniciar-sesion input{
     width: 100%;
     outline: none;
@@ -247,6 +250,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     box-shadow: 0 0 20px rgba(2, 187, 125, 0.5);
 }
 .iniciar-sesion a{
+    text-decoration: none;
     color: #27ABA2;
 }
 .logo-login img{
@@ -257,6 +261,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 }
 .volver-inicio {
     width: 100%;
+    height: 90px;
     margin: auto;
 }
 
@@ -266,10 +271,11 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 
 .body-registro {
-    color: white;
+    color: var(--letras);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 100px;
-    
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .form-reg {
@@ -277,16 +283,9 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     background: #0B1215;
     padding: 100px;
     margin: auto;
-    margin-top: 50px;
     border-radius: 20px;
     border: 2px solid #27ABA2;
     box-shadow: 0 0 20px rgba(2, 187, 125, 0.5);
-}
-
-.form-reg h3 {
-    font-size: 22px;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .form-reg .confirm{
@@ -313,7 +312,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     margin-bottom: 14px;
     border: 1px solid #27ABA2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
+    color: var(--letras);
     outline: none;
     transition: all 0.5s;
 }
@@ -324,12 +323,12 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 .login-from-reg{
     margin-top: 16px;
     text-align: center;
-    color: white;
+    color: var(--letras);
     text-decoration: none;
 }
 
 .login-from-reg a{
-    color:white;
+    color: var(--botones);
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -349,14 +348,11 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 
 .newsletter{
-    width: 100%;
-    padding-top: 0px;
-    margin: auto;
-
+    height: 800px;
+    width: auto;
 }
 .newstitle{
-    width: 100%;
-    padding: 20px;
+    padding: 170px;
     background-color: var(--fondo);
     font-family: Montserrat;
     text-align: center;
@@ -365,43 +361,50 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 50px;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 .news{
+    min-width: 660px;
     width: 100%;
-    height: auto;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     padding: 100px;
 }
 .new{
-    width: 40%;
+    width: 30%;
     margin: 20px;
 }
 .new img{
-    border-radius: 10%;
+    border-radius: 15%;
 }
+
+
+
 
 /*proyectos*/
 
 .proyectos{
-    padding: 50px;
-    width: 100%;
+    padding: 70px;
+    width: 85%;
     background-color: var(--fondo);
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     margin: auto;
+
 }
 .proyecto{
-    margin: auto;
+    width: 50%;
+    margin: 30px;
     background-color: var(--fondo_secundario);
     padding: 20px;
     border-radius: 10%;
+
+}
+.proyecto img{
+    width: 100%;
 }
 
 .proyecto h6{
@@ -428,8 +431,9 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 .formulario_contacto{
     background-color: var(--fondo_secundario);
-    margin-top: 100px;
     width: 100%;
+    padding: 60px;
+    height: 700px;
 }
 .formulario_contacto fieldset{
     border: none;
@@ -437,7 +441,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px; 
+    margin-top: 25px;
 }
 .formulario_contacto h1{
     font-family: Montserrat;
@@ -446,10 +450,11 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     letter-spacing: 3px;
     padding: 10px;
 }
-.formulario_contacto input{
+.formulario_contacto input, textarea{
     margin: 8px;
     width: 50%;
     padding: 13px;
+    resize: none;
     outline: none;
 }
 .formulario_contacto button{
@@ -462,28 +467,32 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     background-color: var(--sombra_btn);
 
 }
-.formulario_contacto textarea{
-    resize: none;
-    outline: none;
-    margin-top: 10px;
-    padding: 13px;
-}
 
 footer{
-    background-color: var(--fondo);
-    margin: auto;
-    height: auto;
-
-}
-
-.redes{
     display: flex;
-    margin: auto;
+    background-color: var(--fondo);
+    justify-content: center;
+    
+    
 }
-.red{
+.sociales{
     margin: auto;
-    padding: 20px;
+    width: auto;
+    height: 150px;
+    overflow: hidden;
+    transition: all 1s;
 }
-.red img{
-    border-radius: 100%;
+
+
+.sociales img{
+    width: 100%;
+    transition: all 0.6s;
+}
+.sociales img:hover{
+    transform: rotateZ(380deg);
+}
+
+
+p{
+    background-color: var(--fondo);
 }
