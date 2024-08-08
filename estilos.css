@@ -1,8 +1,8 @@
 :root{
     --fondo:  #0B1215;
     --letras: #ffff;
-    --botones: #27ABA2;
-    --fondo_secundario: #3D3D3D;
+    --botones: #6236E0;
+    --fondo_secundario: #8B6DE3;
     --sombra_btn: #22978fb9;
     
 }
@@ -63,6 +63,9 @@ body{
     padding: 0px 30px;
     background: var(--fondo);
     z-index: 1;
+    border: 2px solid #6236E0;
+    box-shadow: 0 0 50px rgba(138, 109, 227, 0.459)
+
 }
 .logo img{
     width: 150px;
@@ -93,6 +96,7 @@ body{
 
 .barra_botones button{
     margin-left: 25px;
+    color: var(--letras);
     
 }
 .barra_botones button:hover{
@@ -162,11 +166,11 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 .text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 33px;
     font-weight: 300;
     text-align: center;
     word-spacing: 3px;
-    padding-top: 6%;
+    padding-top: 5%;
 }
 
 .titulo_nosotros{
@@ -192,6 +196,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 .nosotros button{
     margin-top: 60px;
     margin-left: 20px;
+    color: var(--letras);
 
 }
 
@@ -214,7 +219,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #27ABA2;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:  Montserrat;
     color: rgb(255, 255, 255);
     transition: all 0.3s;
 }
@@ -224,7 +229,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 }
 .iniciar-sesion button{
     width: 100%;
-    background:#27ABA2;
+    background:#6236E0;
     border: none;
     padding: 12px;
     color: white;
@@ -240,18 +245,18 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 
 }
 .iniciar-sesion form{
-    width: 550px;
+    width: 450px;
     background: #0B1215;
-    padding: 100px;
+    padding: 60px;
     margin: auto;
-    margin-top: 0px;
+    margin-top: -10px;
     border-radius: 20px;
-    border: 2px solid #27ABA2;
-    box-shadow: 0 0 20px rgba(2, 187, 125, 0.5);
+    border: 2px solid #6236E0;
+    box-shadow: 0 0 20px rgba(138, 109, 227, 0.459)
 }
 .iniciar-sesion a{
     text-decoration: none;
-    color: #27ABA2;
+    color: #6236E0;
 }
 .logo-login img{
     width: 150px;
@@ -279,9 +284,9 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 }
 
 .form-reg {
-    width: 550px;
+    width: 450px;
     background: #0B1215;
-    padding: 100px;
+    padding: 60px;
     margin: auto;
     border-radius: 20px;
     border: 2px solid #27ABA2;
@@ -350,23 +355,28 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 .newsletter{
     height: 800px;
     width: auto;
+    padding: 100px;
+    background-color: var(--fondo_secundario);
+    
 }
 .newstitle{
-    padding: 170px;
+    padding: 0px;
     background-color: var(--fondo);
-    font-family: Montserrat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    border-radius: 30px;
+    margin: -50px;
 }
 .newstitle h1{
     font-weight: 500;
     letter-spacing: 3px;
     font-size: 50px;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .news{
     min-width: 660px;
-    width: 100%;
+    width: 85%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -410,7 +420,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 .proyecto h6{
     text-align: center;
     font-size: 14px;
-    font-family: Montserrat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     margin: 30px;
 
@@ -418,10 +428,24 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
 .proyecto button{
     margin: 10px 70px;
     transition: all 0.3s;
+    color: var(--letras);
+    
 }
 .proyecto button:hover{
     transform: translateX(-3px);
     background-color: var(--sombra_btn);
+}
+.proyectostitle {
+    padding: 70px;
+    background-color: var(--fondo);
+}
+.proyectostitle h1{
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 50px;
+    padding-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 
@@ -461,6 +485,7 @@ ver la posibilidad de meter el h3 en un div más adelante según lo que se haga
     width: auto;
     margin-top: 30px;
     transition: all 0.3s;
+    color: var(--letras);
 }
 .formulario_contacto button:hover{
     transform: translateX(-3px);
